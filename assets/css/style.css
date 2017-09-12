@@ -3,21 +3,29 @@
 body {
 	padding: 0;
 	margin: 0;
+	width: 100%;
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
 }
 
 .container {
 	padding: 0;
 	margin: 0;
 	width: 100%;
-	height: 800px;
+	height: 100%;
 	background-color: #151E29;
 	position: fixed;
+	font-family: Raleway;
+}
+
+.center {
+	text-align: center;
 }
 .hero {
-	text-align: center;
 	color: white;
-	font-family: Raleway;
 	margin-top: 7em;
+	font-size: 2.5em;
 }
 
 .splash {
@@ -26,12 +34,14 @@ body {
 	transition: all .1s ease;
 }
 
-h1:hover {
-	font-size: 2.5em;
-}
-
 .slogan {
 	margin-top: 5px;
 	font-size: .8em;
 	font-weight: 100;
+}
+
+.about {
+	color: white;
+	font-weight: 100;
+	font-size: 1.5em;
 }
