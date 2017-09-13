@@ -1,6 +1,6 @@
 var helloDisplay = document.querySelector('h1');
 var greetings = ['Hello', 'Hei', 'Guten tag', 'Buenos dias', 'Privet']; 
-var random = Math.floor(Math.random() * 4);
+var random = Math.floor(Math.random() * 5);
 
 // Generate string from array
 var generateHello = function(arr, index) {
