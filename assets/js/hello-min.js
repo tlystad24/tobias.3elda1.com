@@ -1,1 +1,1 @@
-var helloDisplay=document.querySelector("h1"),greetings=["Hello","Hei","Guten tag","Buenos dias"],random=Math.floor(4*Math.random()),generateHello=function(e,t){return e[t]};helloDisplay.textContent=generateHello(greetings,random);
+var helloDisplay=document.querySelector("h1"),greetings=["Hello","Hei","Guten tag","Buenos dias","Privet",""],random=Math.floor(4*Math.random()),generateHello=function(e,t){return e[t]};helloDisplay.textContent=generateHello(greetings,random);
