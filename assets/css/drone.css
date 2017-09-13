@@ -1,1 +1,21 @@
 /* GLOBAL */
+body {
+	font-family: 'Raleway';
+	padding: 0;
+	margin: 0;
+}
+
+/* Remove top margin */
+h1 {
+	margin: 0;
+	margin-left: 2%;
+	padding-bottom: 1%;
+	padding-top: 1%;
+	font-size: 3em;
+	color: white;
+}
+
+/* Nav menu */
+.nav {
+background-color:black; 
+}
