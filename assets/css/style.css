@@ -50,7 +50,7 @@ body {
 .link {
 	color: white;
 	text-decoration: none;
-	transition: all .5s ease;
+	transition: all .5s cubic-bezier(.02,1.04,.22,.82);
 	animation-delay: .8s;
 }
 
